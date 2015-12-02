@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Lifetime Supply of Saturated Fat</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <form action="#" method="get">
+    <p>Enter your birthyear:</p>
+    <p><input type="text" id="bYear"></p>
+  <p>I want my fat delivered by the...</p>
+    <select id="units">
+      <option value="boxes">box</option>
+      <option value="bags">bag</option>
+      <option value="fistfuls">fistful</option>
+      <option value="grams">g</option>
+      <option value="ounces">oz</option>
+      <option value="pounds">lb</option>
+    </select>
+  <p><input type="button" onclick="calcSatFat()" value="Submit"></p>
+  </form>
+  <p><span id="result"></span></p>
+  </body>
+</html>
